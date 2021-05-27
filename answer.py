@@ -4,8 +4,6 @@ Created on Wed May 26 17:42:15 2021
 
 @author: gupta
 """
-
-import pandas as pd
 from transformers.pipelines import pipeline
 from flask import Flask
 from flask import request
