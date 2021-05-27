@@ -129,7 +129,8 @@ def answer():
                 }
                 result.append(out)
         return (jsonify(result))
-# Run if running "python answer.py"
+
+    # Run if running "python answer.py"
 if __name__ == '__main__':
     # Run our Flask app and start listening for requests!
     app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 8080)), threaded=True)
