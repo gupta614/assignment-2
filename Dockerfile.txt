@@ -4,7 +4,7 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt 
 
-COPY final_code__assignment_2.py /app/final_code__assignment_2.py
+COPY final_code_assignment_2.py /app/final_code_assignment_2.py
 
-CMD ["python3", "/app/final_code__assignment_2.py"]
+CMD ["python3", "/app/final_code_assignment_2.py"]
 
