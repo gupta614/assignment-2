@@ -1,8 +1,8 @@
 FROM tensorflow/tensorflow
 
-COPY requirements.txt . 
+COPY Requirements.txt . 
 
-RUN pip install -r requirements.txt 
+RUN pip install -r Requirements.txt 
 
 COPY final_code_assignment_2.py /app/final_code_assignment_2.py
 
